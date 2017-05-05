@@ -10,6 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>serializable</module>
+        <module>exception</module>
+        <module>singleton</module>
+        <module>io</module>
+        <module>copy</module>
     </modules>
 
     <dependencies>

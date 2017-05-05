@@ -23,13 +23,21 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="concurrent" />
+        <module name="copy" />
+        <module name="exception" />
+        <module name="io" />
         <module name="serializable" />
+        <module name="singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="concurrent" target="1.8" />
+      <module name="copy" target="1.8" />
+      <module name="exception" target="1.8" />
       <module name="hello" target="1.8" />
+      <module name="io" target="1.8" />
       <module name="serializable" target="1.8" />
+      <module name="singleton" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
